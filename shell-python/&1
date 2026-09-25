@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\PrathameshV\Downloads\codecrafters-shell-python-master\codecrafters-shell-python-master\app\main.py", line 5, in <module>
+    Shell().start()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\PrathameshV\Downloads\codecrafters-shell-python-master\codecrafters-shell-python-master\app\shell\shell.py", line 36, in start
+    line = input(self._prompt)
+EOFError: EOF when reading a line
